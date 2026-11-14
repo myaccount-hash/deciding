@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: initial-presentation
+expected_outcome: |
+  DECISIONS.mdがないので，判断事項はD1から番号が振られる．言語，設定ファイルの形式，データの保存方式が，それぞれ別の判断事項として，推奨・理由・代替付きで提示される．前提の欄はなく，選択肢UIも使わず，返答のお願いで止まる．

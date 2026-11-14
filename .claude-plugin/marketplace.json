@@ -1,13 +1,13 @@
 {
-    "name": "present-decisions",
+    "name": "presenting-decisions",
     "description": "判断事項を提示して合意を確定させるスキル",
     "owner": {
         "name": "myaccount-hash"
     },
     "plugins": [
         {
-            "name": "present-decisions",
-            "source": "./plugins/present-decisions",
+            "name": "presenting-decisions",
+            "source": "./plugins/presenting-decisions",
             "description": "判断事項を推奨案とともに提示し，ユーザーのコメントを受けて合意事項を確定させる．"
         }
     ]

@@ -1,4 +1,4 @@
-# present-decisions
+# presenting-decisions
 
 判断事項を推奨案とともに提示し，コメントを受けてラウンドを重ねて合意事項を確定させるスキル．
 確定した合意と保留はDECISIONS.mdに記録する．
@@ -7,13 +7,13 @@
 ## インストール（Claude Code）
 
 ```
-/plugin marketplace add myaccount-hash/present-decisions
-/plugin install present-decisions@present-decisions
+/plugin marketplace add myaccount-hash/presenting-decisions
+/plugin install presenting-decisions@presenting-decisions
 ```
 
 ## インストール（claude.ai）
 
-`plugins/present-decisions/skills/present-decisions`フォルダをZIPにし，Customize > Skillsからアップロードする．
+`plugins/presenting-decisions/skills/presenting-decisions`フォルダをZIPにし，Customize > Skillsからアップロードする．
 
 ## 使い方
 

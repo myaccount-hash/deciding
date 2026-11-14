@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: compression
+expected_outcome: |
+  否定されたD1と解決済みの保留D3を除き，有効な事項（D2，D4，D5）だけが残る．解釈や判断が必要な事項がなければ提示せずに，DECISIONS.mdが圧縮した記録で上書きされる．事項はD1から振り直され，見出しは日時だけで，元のIDや否定・解決への言及は残らない．
+context:
+  scaffold_script: place-files.sh

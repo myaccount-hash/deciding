@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: record-negation
+expected_outcome: |
+  DECISIONS.mdに新しい記録が追記され，D3が確定事項として，D1（設定ファイルはYAMLで書く）を否定する旨とともに書かれる．既存のD1の下に「→ D3で否定（日時）」の印が1行追記され，既存の記録のそれ以外の部分は書き換えられない．否定したD1がユーザーに報告される．
+context:
+  scaffold_script: place-files.sh
