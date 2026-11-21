@@ -1,14 +1,14 @@
 {
-    "name": "presenting-decisions",
-    "description": "判断事項を提示して合意を確定させるスキル",
+    "name": "deciding",
+    "description": "質問をカードにして判断を確定させるスキル",
     "owner": {
         "name": "myaccount-hash"
     },
     "plugins": [
         {
-            "name": "presenting-decisions",
-            "source": "./plugins/presenting-decisions",
-            "description": "判断事項をカードとして推奨・理由・代替とともに提示し，ユーザーの返答を受けて合意を確定させる．"
+            "name": "deciding",
+            "source": "./plugins/deciding",
+            "description": "質問をカードとして推奨・理由・代替とともに提示し，ユーザーの返答を受けて判断を確定させる．"
         }
     ]
 }
