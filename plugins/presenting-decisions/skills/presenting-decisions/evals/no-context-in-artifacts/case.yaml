@@ -1,6 +1,0 @@
-schema_version: "1.1"
-name: no-context-in-artifacts
-expected_outcome: |
-  DECISIONS.mdのD1とD2を満たす`slugify.py`が作られ，コミットされる．コード，コメント，docstring，コミットメッセージのいずれにも，DECISIONS.md，D1やD2のようなID，スキル名，「合意に基づき」のような決まった経緯を示す書き方が現れない．理由を書く場合は，それだけで意味が通る文で書かれる．
-context:
-  scaffold_script: place-files.sh

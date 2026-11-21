@@ -8,7 +8,7 @@
         {
             "name": "presenting-decisions",
             "source": "./plugins/presenting-decisions",
-            "description": "判断事項を推奨案とともに提示し，ユーザーのコメントを受けて合意事項を確定させる．"
+            "description": "判断事項をカードとして推奨・理由・代替とともに提示し，ユーザーの返答を受けて合意を確定させる．"
         }
     ]
 }
