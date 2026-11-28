@@ -9,6 +9,11 @@
             "name": "deal",
             "source": "./plugins/deal",
             "description": "AIが自分の立場からカードを推奨・理由・代替とともに起票し，ユーザーのOKで確定させる．"
+        },
+        {
+            "name": "toolkit-creator",
+            "source": "./plugins/toolkit-creator",
+            "description": "名前が-toolkitで終わるスキル(対象ごとにスクリプトとレシピをまとめたスキル)を作り，直し，拡張する．"
         }
     ]
 }

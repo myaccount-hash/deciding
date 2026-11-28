@@ -1,0 +1,9 @@
+{
+    "name": "toolkit-creator",
+    "description": "名前が-toolkitで終わるスキル(対象ごとにスクリプトとレシピをまとめたスキル)を作り，直し，拡張する．",
+    "version": "1.0.0",
+    "author": {
+        "name": "myaccount-hash"
+    },
+    "license": "MIT"
+}
