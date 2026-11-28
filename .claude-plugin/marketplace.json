@@ -1,6 +1,6 @@
 {
     "name": "deciding",
-    "description": "質問をカードにして判断を確定させるスキル",
+    "description": "カードを起票して判断を確定させるスキル",
     "owner": {
         "name": "myaccount-hash"
     },
@@ -8,7 +8,7 @@
         {
             "name": "deciding",
             "source": "./plugins/deciding",
-            "description": "質問をカードとして推奨・理由・代替とともに提示し，ユーザーの返答を受けて判断を確定させる．"
+            "description": "カードを推奨・理由・代替とともに起票し，ユーザーの返答で判断を確定させる．"
         }
     ]
 }
