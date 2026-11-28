@@ -1,12 +1,12 @@
-# toolkit-creator
+# toolkit-smith
 
-toolkit-smithスキルを入れるプラグイン．toolkit-smithは，名前が`-toolkit`で終わるスキル（toolkit）を作り，直し，拡張する．toolkitは，対象ごとにスクリプトとレシピをまとめ，次回以降の作業で消費するコンテキストを減らし，速度と正確性を上げる．
+名前が`-toolkit`で終わるスキル（toolkit）を作り，直し，拡張する．toolkitは，対象ごとにスクリプトとレシピをまとめ，次回以降の作業で消費するコンテキストを減らし，速度と正確性を上げる．
 
 ## インストール（Claude Code）
 
 ```
 /plugin marketplace add myaccount-hash/myaccount-hash-skills
-/plugin install toolkit-creator@myaccount-hash-skills
+/plugin install toolkit-smith@myaccount-hash-skills
 ```
 
 ## インストール（claude.ai）
