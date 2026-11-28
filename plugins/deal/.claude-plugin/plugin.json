@@ -1,0 +1,9 @@
+{
+    "name": "deal",
+    "description": "AIが自分の立場からカードを推奨・理由・代替とともに起票し，ユーザーのOKで確定させる．",
+    "version": "2.0.0",
+    "author": {
+        "name": "myaccount-hash"
+    },
+    "license": "MIT"
+}

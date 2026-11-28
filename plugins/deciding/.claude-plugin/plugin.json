@@ -1,9 +1,0 @@
-{
-    "name": "deciding",
-    "description": "カードを推奨・理由・代替とともに起票し，ユーザーの返答で判断を確定させる．",
-    "version": "1.0.0",
-    "author": {
-        "name": "myaccount-hash"
-    },
-    "license": "MIT"
-}
