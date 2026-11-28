@@ -1,6 +1,6 @@
 {
-    "name": "deciding",
-    "description": "カードを起票して判断を確定させるスキル",
+    "name": "myaccount-hash-skills",
+    "description": "myaccount-hashの自作スキル集",
     "owner": {
         "name": "myaccount-hash"
     },

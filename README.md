@@ -1,36 +1,26 @@
-# deciding
+# myaccount-hash-skills
+
+自作スキルをまとめたリポジトリ．リポジトリ自体がClaude Codeのプラグインのマーケットプレイスになっている．
+
+## スキル
+
+| スキル | 内容 |
+| --- | --- |
+| [deciding](plugins/deciding/) | カードを推奨・理由・代替とともに起票し，ユーザーの返答で判断を確定させる． |
 
 ## インストール（Claude Code）
 
 ```
-/plugin marketplace add myaccount-hash/deciding
-/plugin install deciding@deciding
+/plugin marketplace add myaccount-hash/myaccount-hash-skills
+/plugin install <スキル名>@myaccount-hash-skills
 ```
 
 ## インストール（claude.ai）
 
-`scripts/build-skill.sh`を実行して`dist/deciding.skill`を作り，Customize > Skillsからアップロードする．
+`scripts/build-skill.sh <スキル名>`を実行して`dist/<スキル名>.skill`を作り，Customize > Skillsからアップロードする．スキル名を省くと全スキルを作る．
 
-## 返答の語
+## スキルを追加する
 
-カードの番号を添えて返す．
-
-- `OK`: 推奨で確定する．
-- `SKIP`: そのラウンドでは判断しない．
-- それ以外: コメントとして扱われ，AIが推奨を作り直す．
-
-```
-C1 OK
-C2 SKIP
-C3 〜のほうがよいのでは
-```
-
-## 指示の語
-
-それだけで書くと指示になる．「カードを出して」「記録して」のような文でもよい．
-
-- `DEAL`: カードを起票する．
-- `SAVE`: `OK`になった判断を判断リスト（`.decisions.md`）に記録する．
-- `SHOW`: `OK`になった判断を，判断リストの書き方でチャットに出す．
-- `RUN`: `OK`になった判断に従って成果物を作る．判断リストを添えると，その判断にも従う．
-- `COMPRESS`: 添えた判断リストを圧縮する候補をカードにして起票する．
+1. `plugins/<スキル名>/.claude-plugin/plugin.json`と`plugins/<スキル名>/skills/<スキル名>/SKILL.md`を作る．
+2. `.claude-plugin/marketplace.json`の`plugins`と，このREADMEの表に追加する．
+3. ローカルで試すときは`ln -s "$PWD/plugins/<スキル名>/skills/<スキル名>" ~/.claude/skills/<スキル名>`でリンクを張る．
